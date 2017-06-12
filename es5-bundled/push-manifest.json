@@ -1,0 +1,32 @@
+{
+  "src/my-app.html": {
+    "src/scart-about.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/my-app.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/scart-config-dialog.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/scart-overview.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/scart-list.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/scart-404.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/scart-overview.html": {},
+  "src/scart-list.html": {},
+  "src/scart-config-dialog.html": {},
+  "src/scart-about.html": {}
+}

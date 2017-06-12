@@ -1,0 +1,14 @@
+{
+  "name": "my-grocery-list",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "prpl-server": "^0.7.0"
+  },
+  "scripts": {
+    "start": "prpl-server --host 0.0.0.0 --https-redirect --root . --config polymer.json"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}

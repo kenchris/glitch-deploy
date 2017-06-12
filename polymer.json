@@ -1,0 +1,97 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/my-app.html",
+  "fragments": [
+    "src/scart-overview.html",
+    "src/scart-list.html",
+    "src/scart-config-dialog.html",
+    "src/scart-about.html"
+  ],
+  "sources": [
+    "src/**/*",
+    "images/**/*",
+    "bower.json",
+    "index.html",
+    "src/my-app.html",
+    "src/scart-overview.html",
+    "src/scart-list.html",
+    "src/scart-config-dialog.html",
+    "src/scart-about.html"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "bower_components/webcomponentsjs/*.js",
+    "bower_components/webcomponentsjs/*.js"
+  ],
+  "builds": [
+    {
+      "name": "es5-bundled",
+      "js": {
+        "minify": true,
+        "compile": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true,
+      "addPushManifest": true,
+      "insertPrefetchLinks": true,
+      "preset": "es5-bundled",
+      "basePath": true
+    },
+    {
+      "name": "es6-bundled",
+      "browserCapabilities": [
+        "es2015"
+      ],
+      "js": {
+        "minify": true,
+        "compile": false
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": true,
+      "addServiceWorker": true,
+      "addPushManifest": true,
+      "insertPrefetchLinks": true,
+      "preset": "es6-bundled",
+      "basePath": true
+    },
+    {
+      "name": "es6-unbundled",
+      "browserCapabilities": [
+        "es2015",
+        "push"
+      ],
+      "js": {
+        "minify": true,
+        "compile": false
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      },
+      "bundle": false,
+      "addServiceWorker": true,
+      "addPushManifest": true,
+      "insertPrefetchLinks": true,
+      "preset": "es6-unbundled",
+      "basePath": true
+    }
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  }
+}
