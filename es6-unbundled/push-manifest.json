@@ -324,6 +324,30 @@
       "type": "document",
       "weight": 1
     },
+    "bower_components/paper-snackbar/paper-snackbar.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-button/paper-button.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-behaviors/paper-button-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-styles/element-styles/paper-material-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-styles/shadow.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/font-roboto/roboto.html": {
+      "type": "document",
+      "weight": 1
+    },
     "src/scart-icons.html": {
       "type": "document",
       "weight": 1
@@ -384,14 +408,6 @@
       "type": "document",
       "weight": 1
     },
-    "bower_components/font-roboto/roboto.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/paper-styles/shadow.html": {
-      "type": "document",
-      "weight": 1
-    },
     "src/scart-overview.html": {
       "type": "document",
       "weight": 1
@@ -412,23 +428,51 @@
       "type": "document",
       "weight": 1
     },
-    "bower_components/paper-styles/element-styles/paper-material-styles.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/paper-button/paper-button.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/paper-behaviors/paper-button-behavior.html": {
-      "type": "document",
-      "weight": 1
-    },
     "src/scart-howto-card.html": {
       "type": "document",
       "weight": 1
     },
     "src/scart-list.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-input/paper-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/iron-form-element-behavior/iron-form-element-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/iron-input/iron-input.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/iron-a11y-announcer/iron-a11y-announcer.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/iron-validatable-behavior/iron-validatable-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-input/paper-input-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-input/paper-input-char-counter.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-input/paper-input-addon-behavior.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-input/paper-input-container.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-input/paper-input-error.html": {
       "type": "document",
       "weight": 1
     },
@@ -441,14 +485,6 @@
       "weight": 1
     },
     "bower_components/iron-checked-element-behavior/iron-checked-element-behavior.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/iron-validatable-behavior/iron-validatable-behavior.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/iron-form-element-behavior/iron-form-element-behavior.html": {
       "type": "document",
       "weight": 1
     },
