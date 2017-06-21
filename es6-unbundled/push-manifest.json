@@ -324,30 +324,6 @@
       "type": "document",
       "weight": 1
     },
-    "bower_components/paper-snackbar/paper-snackbar.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/paper-button/paper-button.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/paper-behaviors/paper-button-behavior.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/paper-styles/element-styles/paper-material-styles.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/paper-styles/shadow.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/font-roboto/roboto.html": {
-      "type": "document",
-      "weight": 1
-    },
     "src/scart-icons.html": {
       "type": "document",
       "weight": 1
@@ -408,31 +384,23 @@
       "type": "document",
       "weight": 1
     },
-    "src/scart-overview.html": {
+    "bower_components/font-roboto/roboto.html": {
       "type": "document",
       "weight": 1
     },
-    "src/shared-styles.html": {
+    "bower_components/paper-styles/shadow.html": {
       "type": "document",
       "weight": 1
     },
-    "src/scart-overview-card.html": {
+    "bower_components/paper-button/paper-button.html": {
       "type": "document",
       "weight": 1
     },
-    "bower_components/paper-card/paper-card.html": {
+    "bower_components/paper-behaviors/paper-button-behavior.html": {
       "type": "document",
       "weight": 1
     },
-    "bower_components/iron-image/iron-image.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "src/scart-howto-card.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "src/scart-list.html": {
+    "bower_components/paper-styles/element-styles/paper-material-styles.html": {
       "type": "document",
       "weight": 1
     },
@@ -473,6 +441,38 @@
       "weight": 1
     },
     "bower_components/paper-input/paper-input-error.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-snackbar/paper-snackbar.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/scart-overview.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/shared-styles.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/scart-overview-card.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/paper-card/paper-card.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/iron-image/iron-image.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/scart-howto-card.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/scart-list.html": {
       "type": "document",
       "weight": 1
     },
