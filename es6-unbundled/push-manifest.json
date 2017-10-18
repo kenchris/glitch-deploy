@@ -12,6 +12,14 @@
       "type": "document",
       "weight": 1
     },
+    "bower_components/polymer/lib/utils/settings.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "bower_components/polymer/lib/utils/resolve-url.html": {
+      "type": "document",
+      "weight": 1
+    },
     "bower_components/polymer/lib/utils/mixin.html": {
       "type": "document",
       "weight": 1
@@ -21,10 +29,6 @@
       "weight": 1
     },
     "bower_components/polymer/lib/utils/style-gather.html": {
-      "type": "document",
-      "weight": 1
-    },
-    "bower_components/polymer/lib/utils/resolve-url.html": {
       "type": "document",
       "weight": 1
     },
